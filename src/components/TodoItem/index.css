@@ -1,0 +1,24 @@
+.item-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item-wrapper:hover .trash-icon {
+    display: block;
+}
+
+.check {
+    display: flex;
+    gap: 10px;
+}
+
+.check input {
+    cursor: pointer;
+}
+
+
+.trash-icon {
+    cursor: pointer;
+    display: none;
+}
